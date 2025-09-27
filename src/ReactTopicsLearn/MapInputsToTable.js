@@ -22,11 +22,13 @@ const MapInputsToTable = () => {
                     </tr>
                 </thead>
                 <tbody> 
-                    <td> </td>
-                    <td> </td>
-                    <td> </td>
-                    <td> sss </td>
-                    <button> Delete </button>
+                    <tr> 
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> <button> Delete </button> </td>
+                    </tr>
                 </tbody>
             </table>
             
