@@ -3,11 +3,23 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import IncreaseDecreseBtn from './ReactTopicsLearn/IncreaseDecreaseBtn';
+import Calculator from './ReactTopicsLearn/Calculator';
+import InputToShow from './ReactTopicsLearn/InputToShow';
+import MappingLearn from './ReactTopicsLearn/MappingLearn';
+import MapInputsToTable from './ReactTopicsLearn/MapInputsToTable';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <IncreaseDecreseBtn /> */}
+    <Calculator />
+    <InputToShow />
+    <MappingLearn />
+    <MapInputsToTable />
+
+
   </React.StrictMode>
 );
 
